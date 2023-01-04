@@ -18,9 +18,9 @@ form.addEventListener("submit", function (e) {
     messages.push("Please provide a valid email");
   }
   if (validateEmail(email.value)) {
-    e.preventDefault();
     email.value = "";
     errorElement.style.display = "none";
+    e.preventDefault();
   }
   if (messages.length > 0) {
     e.preventDefault();
