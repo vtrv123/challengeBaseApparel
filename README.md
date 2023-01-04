@@ -23,8 +23,9 @@ Users should be able to:
   - The email address is not formatted correctly
 
 ### Screenshot
-
+#### Normal state
 ![](./screenshot.png)
+#### Error
 ![](./screenshot-error.png)
 
 ### Links
